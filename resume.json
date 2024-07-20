@@ -1,236 +1,304 @@
 {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "meta": {
-    "theme": "elegant"
+    "theme": "kendall",
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
   },
   "basics": {
-    "name": "Thomas Davis",
-    "label": "Web Developer",
-    "image": "https://avatars0.githubusercontent.com/u/416209?s=460&u=38f220a2c9c658141804f881c334c594eb1642ac&v=4",
-    "summary": "I'm a full stack web developer who can build apps from the ground up. I've worked mostly at startups so I am used to wearing many hats. I am a very product focussed developer who priotizes user feedback first and foremost. I'm generally very flexible when investigating new roles. ",
-    "website": "https://lordajax.com",
-    "email": "thomasalwyndavis@gmail.com",
+    "name": "Lacy Morrow",
+    "label": "Senior Web Engineer",
+    "image": "https://avatars.githubusercontent.com/u/1311301?v=4",
+    "avatar": "https://avatars.githubusercontent.com/u/1311301?v=4",
+    "email": "lacymorrow0@gmail.com",
+    "phone": "(704) 315-5876",
+    "url": "http://lacymorrow.com",
+    "summary": "Lacy Morrow is a lifetime full-stack web and application developer with an outstanding knowledge of back and front-end languages, frameworks and libraries.\n\n15+ years in building scalable, maintainable, marketable web applications.\n\nCurrent preferred stack: NextJS + React, Typescript, GraphQL, Postgresql, Docker\n\nExpert in HTML5/CSS3 + (SASS/LESS), Javascript + Node, Python, PHP \nResponsive design, Cross-browser/device compatibility, SEO, WCAG AAA Accessibility methods and best practices. Creator of pixel-perfect, mobile-first development with graceful degradation and progressive enhancement.\n\nDevelopment software includes: Coda, Sublime Text, Django, Flask, NodeJS, Grunt, Wordpress, Foundation/Bootstrap, AngularJS, Laravel, SocialEngine, Joomla!, Drupal, MySQL, Postgres, SSH",
     "location": {
-      "city": "Melbourne",
-      "countryCode": "AU"
+      "countryCode": "US",
+      "city": "Charlotte",
+      "state": "NC",
+      "address": "Charlotte, NC United States"
     },
     "profiles": [
       {
-        "username": "ajaxdavis",
-        "url": "https://twitter.com/ajaxdavis",
-        "network": "twitter"
+        "network": "LinkedIn",
+        "username": "lacymorrow",
+        "url": "https://www.linkedin.com/in/lacymorrow/"
       },
       {
-        "url": "https://github.com/thomasdavis",
+        "network": "Twitter",
+        "username": "lacymorrrow",
+        "url": "https://twitter.com/lacymorrrow"
+      },
+      {
+        "network": "github",
         "username": "thomasdavis",
-        "network": "github"
+        "url": "https://github.com/thomasdavis"
       }
     ]
   },
-  "education": [
+  "interests": [
     {
-      "endDate": "2009-12-12",
-      "startDate": "2008-02-12",
-      "area": "Software Engineering (incomplete)",
-      "studyType": "Bachelors",
-      "institution": "The University of Queensland"
+      "name": "Electrical Engineering / IoT"
+    },
+    {
+      "name": "Drone Racing / Videography"
+    },
+    {
+      "name": "Traveling"
+    },
+    {
+      "name": "Open Source"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
     }
   ],
   "references": [
     {
-      "reference": "Thomas was hired as a lead developer and, upon the leaving of our co-founder took over as CTO of Earbits. Thomas is, hands down, one of those A Players you hear of companies dying to hire. He is incredibly smart, not just at code but about everything from classical music to Chinese language and culture. Thomas is great to work with and, as a well established contributor to open source projects and several successful ventures, commands the respect of engineers at all levels. I would suggest doing anything you can to have him on your team.",
-      "name": "Joey Flores, Co-founder and CEO of Earbits, Inc."
-    },
-    {
-      "reference": "I've had the great pleasure of working with Thomas for the past three years at Earbits, and on a few side projects. Two years ago our CTO left on a moment's notice, Thomas saved our company by quickly stepping up to fill this role. He has been with our company through thick and thin and made serious personal sacrifices in order to help the company during tough times. He is a phenomenal hacker and a true team player. Highly recommended!",
-      "name": "Yotam Rosenbaum, SVP of Operations, Earbits, Inc."
-    },
-    {
-      "reference": "Thomas is an extremely talented engineer with a very broad range of skills and experience. From being a thought leader in the front-end community via backbonetutorials.com and cdnjs.com, to designing and implementing the API for cdnjs.com, working with Thomas has been fantastic learning experience. Thomas is truly a full stack develop, and his work output is incredible. If there is any opportunity to work with Thomas, I take it. He is the definition of an A player.",
-      "name": "Ryan Kirkman, Senior Software Engineer at Nerdwallet"
-    },
-    {
-      "reference": "On Thomas Davis... Hire this guy. Do not be fooled. Incredibly capable and fast. Plays well with others. Unbelievable at front-end work end programming but that is just the start. Visionary. Hire him before I do.",
-      "name": "Greg Davis"
+      "reference": "Lacy is an extremely talented engineer with a very broad range of skills and experience. From being a thought leader in the front-end community via backbonetutorials.com and cdnjs.com, to designing and implementing the API for cdnjs.com, working with Lacy has been fantastic learning experience. Lacy is truly a full stack developer, and his work output is incredible. If there is any opportunity to work with Lacy, I take it. He is the definition of an A player.",
+      "name": "Ryan Kirkram, Senior Software Engineer at Yahoo"
     }
   ],
+  "projects": [
+    {
+      "name": "CrossOver",
+      "startDate": "2019-05-31",
+      "summary": "Cross-platform Electron desktop application",
+      "url": "https://github.com/lacymorrow/crossover"
+    },
+    {
+      "name": "Cinematic",
+      "startDate": "2016-12-31",
+      "summary": "A NodeJS-based desktop app for organizing your digital movie collection in a simple, easy-to-manage way. Sort, filter, search your movies, then check out ratings, trailers, plot, reviews and more before watching.\n\nNodeJS + Meteor desktop app",
+      "url": "https://lacymorrow.github.io/cinematic",
+      "endDate": "2016-12-31"
+    },
+    {
+      "name": "Casper",
+      "startDate": "2014-03-31",
+      "summary": "A gorgeous open-source Wordpress theme, inspired by the default theme of the Ghost blogging platform.",
+      "url": "http://www.lacymorrow.com/projects/casper",
+      "endDate": "2014-03-31"
+    },
+    {
+      "name": "Boone Community Network",
+      "startDate": "2012-08-31",
+      "summary": "A local, community-based social network for the city of Boone, North Carolina. Connect locally and interact with your community; Discover businesses, deals, and people around you; Hear about the latest events and keep your roots local.",
+      "url": "http://www.boonecommunitynetwork.com",
+      "endDate": "2012-08-31"
+    },
+    {
+      "name": "Phase2Productions",
+      "startDate": "2012-04-30",
+      "summary": "Phase2Productions is a video production agency by Emmy Award-winning news anchor Kim Brattain. Phase2Productions’ team of Emmy and Telly award-winning professionals can sharpen your image and build your brand.",
+      "url": "http://www.kimbrattain.com",
+      "endDate": "2012-04-30"
+    },
+    {
+      "name": "XPlay.js",
+      "startDate": "2011-08-31",
+      "summary": "The open source, drop-and-go HTML5 media player. xPlay.js is a powerful tool used to assist in playing multiple media files on a website. Scan an entire directory and generate a playlist, complete with album art, from your audio and video. Playlist is completely customizable via CSS and controlled via JS.",
+      "url": "https://lacymorrow.github.com/xplay-js",
+      "endDate": "2009-04-30"
+    },
+    {
+      "name": "XSPF Jukebox",
+      "startDate": "2004-03-31",
+      "summary": "The XSPF Jukebox is a fully skinnable, open source Flash media player. Based on my revisions of Fabricio Zuardi’s original creation. A full featured media player, the Jukebox supports both mp3 audio and flv video parsed through an external .XSPF or .XML playlist. Custom skins combined with auto–resume and many customizable options make the XSPF Jukebox a solid choice for a Flash–based media player.",
+      "url": "http://lacymorrow.github.io/xspf-jukebox/",
+      "endDate": "2009-04-30"
+    }
+  ],
+  "work": [
+    {
+      "name": "Twilio Inc.",
+      "position": "Senior Web Engineer",
+      "startDate": "2017-11-30",
+      "endDate": "2022-11-30",
+      "highlights": [],
+      "summary": "Managed Twilio.com and all marketing websites, customer sites, conference sites. Architected systems and deployment processes; developed a React design-system; Managed migration of entire legacy codebases; Implemented regionalization/i18n; Implemented WCAG AAA Accessibility standards.\n\nTypescript, React, NextJS, Python, Django, PHP, Postgres, GraphQL, Docker, AWS",
+      "url": "https://twilio.com/",
+      "location": "San Francisco, CA"
+    },
+    {
+      "name": "LacyMorrow.com",
+      "position": "Senior Developer",
+      "startDate": "2006-12-31",
+      "endDate": "2022-01-31",
+      "highlights": [],
+      "summary": "Full-stack Web Design & Development \nwith 15+ years experience designing and building websites and web apps for desktop and mobile experiences.",
+      "url": "http://lacymorrow.com",
+      "location": "San Francisco Bay Area & Charlotte, NC"
+    },
+    {
+      "name": "10up",
+      "position": "Senior Web Developer",
+      "startDate": "2017-02-28",
+      "endDate": "2017-09-30",
+      "highlights": [],
+      "summary": "Develop WordPress plugins and/or themes primarily using PHP + Leverage WordPress APIs and extend the WordPress admin experience. Test solutions across multiple browsers and platforms in a local testing environment. Deploy changes to live servers. Assist in the remediation, enhancement, and maintenance of client sites.",
+      "url": "https://10up.com/",
+      "location": "San Francisco, CA"
+    },
+    {
+      "name": "Long Game",
+      "position": "Full-Stack Developer",
+      "startDate": "2016-03-31",
+      "endDate": "2016-11-30",
+      "highlights": [],
+      "summary": "Full-Stack Web Developer - Building the initial company prototype app with React.",
+      "url": "https://www.truist.com/long-game",
+      "location": "San Francisco, CA"
+    },
+    {
+      "name": "Yahoo",
+      "position": "Web Application Developer / React",
+      "startDate": "2016-01-31",
+      "endDate": "2016-03-31",
+      "highlights": [],
+      "summary": "Senior Full-Stack Web Developer - Built several React components on a Yahoo stack for the Search and Branded Marketing teams using Tumblr as a data serve API.\n\nOpenStack; Apache; Linux; NodeJS; ReactJS",
+      "url": "https://www.yahoo.com/",
+      "location": "Palo Alto, CA"
+    },
+    {
+      "name": "Invitae",
+      "position": "Software Engineer",
+      "startDate": "2014-06-30",
+      "endDate": "2015-09-30",
+      "highlights": [],
+      "summary": "Senior Full-Stack Web Developer - Created and maintained HIPAA-compliant back office software, data science tools, and analytics software as well as the public-facing invitae.com; UX/UI Developer - Developed navigation, modals, and interactions; Made custom WordPress theme; DevOps - Managed database health, configured continuous integration instances, web-hooks, bi-weekly deployments. Created an automated Selenium testing workflow; Tech Interviewer;\n\nPython, PHP, MySQL, Django, Flask, Angular, Backbone, React, WordPress, ElasticSearch, NightwatchJS, Git & Mercurial, Docker, Jenkins, Splunk, Apache, AWS EC2, Linux",
+      "url": "https://www.invitae.com/",
+      "location": "San Francisco, CA"
+    },
+    {
+      "name": "Appalachian State University",
+      "position": "Full-Stack Web Developer",
+      "startDate": "2010-09-30",
+      "endDate": "2011-09-30",
+      "highlights": [],
+      "summary": "Full-Stack Web Developer - Built internal websites and scheduling software. Helped develop back office software. Created custom CMS framework with PHP, Postgres used by all campus web pages; DevOps - Managed database and handled deployments;\n\nPHP, Python, Postgres, MySQL, PHPWebsite, PHPUnit, Git, Apache, Linux",
+      "url": "https://www.appstate.edu/",
+      "location": "Boone, NC"
+    },
+    {
+      "name": "Red Ventures",
+      "position": "Web Design Intern",
+      "startDate": "2010-03-31",
+      "endDate": "2010-08-31",
+      "highlights": [],
+      "summary": "Front-End Web Developer - Created 10+ branded advertising websites and unique user interactions; Created promotional sites and emails. Sliced Photoshop files to create HTML email; \n\nPHP, MySQL, Linux",
+      "url": "https://www.redventures.com/",
+      "location": "Rock Hill, SC"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Appalachian State University",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science (BS)",
+      "startDate": "2009-12-31",
+      "endDate": "2013-12-31",
+      "score": "",
+      "courses": [
+        "2440 - Computer Science",
+        "4440 - Artificial Intelligence",
+        "4434 - Client-side Web Programming",
+        "4435 - Server-side Web Programming",
+        "3460 - Data Structures",
+        "3430 - Database",
+        "3482 - Computer Systems",
+        "3490 - Programming Languages",
+        "3667 - Software Engineering",
+        "2240 - Linear Algebra"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Arctic Code Vault Contributor",
+      "awarder": "Github",
+      "date": "2020-01-01"
+    }
+  ],
+  "certificates": [],
+  "publications": [],
   "skills": [
     {
       "keywords": [
-        "HTML / JSX",
+        "HTML / JSX / MDX",
         "SCSS / CSS / BEM / Styled Components",
         "Javascript / Typescript",
-        "React / Next",
-        "Redux / Apollo"
+        "React / Next"
       ],
       "level": "Senior",
       "name": "Frontend"
     },
     {
-      "keywords": ["Node", "Ruby", "Python", "Postgres", "Redis", "Serverless"],
+      "keywords": [
+        "Node",
+        "Python",
+        "Postgres",
+        "Redis",
+        "Ruby",
+        "PHP",
+        "SQL",
+        "Serverless",
+        "Microservices"
+      ],
       "level": "Senior",
       "name": "Backend"
     },
     {
-      "keywords": ["AWS", "G Cloud", "Heroku", "Caching"],
+      "keywords": [
+        "Docker",
+        "AWS",
+        "G Cloud",
+        "Vercel",
+        "Netlify",
+        "Heroku",
+        "Caching",
+        "CI/CD",
+        "Testing"
+      ],
       "level": "Senior",
       "name": "Devops"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Defender of the Internet",
-      "awarder": "Fight For The Future"
-    }
-  ],
-  "work": [
-    {
-      "summary": "Tokenized is a Bitcoin wallet for issuing, managing and trading digital tokens. I built out the front end which was packaged as an electron app. It was a difficult frontend to build because we store the users keys locally and used them to sign transactions and contracts.",
-      "website": "https://tokenized.com/",
-      "name": "Tokenized",
-      "location": "Melbourne",
-      "position": "Senior Javascript Developer",
-      "startDate": "2020-05-05",
-      "highlights": ["React", "Redux", "SCSS", "Product"]
     },
     {
-      "summary": "Blockbid is an Australian crypto currency exchange. I started off on the frontend but eventually became lead tech and worked on every moving piece of the exchange. I really enjoyed working with liquidity providers and connecting their platforms to help us achieve liquid markets.",
-      "website": "https://platform.blockbid.io",
-      "name": "Blockbid",
-      "location": "Melbourne",
-      "position": "Senior Javascript Developer",
-      "startDate": "2018-03-01",
-      "endDate": "2020-01-01",
-      "highlights": [
-        "React, Apollo, Styled Components",
-        "Node.js / Rails",
-        "Docker / Heroku / GCP",
-        "Used Figma for design and UX work",
-        "Optimizing markets with tens of millions of rows using SQL."
-      ]
-    },
-    {
-      "highlights": [
-        "Worked with Postgres, Redis and Dynamodb for storage.",
-        "Hosted on a mixture of Heroku Apps and EC2 servers.",
-        "Caching by Fastly and Cloudflare",
-        "Hybrid app supported on all platforms"
+      "keywords": [
+        "SEO",
+        "GTM",
+        "Analytics",
+        "WordPress"
       ],
-      "summary": "Built a very large and complex React / Redux application. It works on all platforms and has IOS/Android builds due to it being a PWA. (wrapped it in React Native though only implementing a WebView)",
-      "website": "https://listium.com",
-      "pinned": true,
-      "name": "Listium",
-      "position": "Developer",
-      "startDate": "2016-01-01",
-      "endDate": "2018-01-01"
+      "level": "Senior",
+      "name": "Web Branding"
     },
     {
-      "highlights": [
-        "Millions of sites use the CDN in production",
-        "Larger market share than Yahoo's, Microsoft's and Google's javascript content distribution networks",
-        "We serve hundreds of billions request a month",
-        "Contains over 3000 popular Javascript libraries",
-        "Millions of developers visit the site per year"
+      "keywords": [
+        "Electron",
+        "Rust",
+        "Java",
+        "C/++/#"
       ],
-      "pinned": true,
-      "summary": "Following Google's CDN for jQuery, we decided to start a CDN for the less popular Javascript frameworks. The CDN is community moderated and open source on GitHub. We secured a partnership with Cloudflare who now supports the infrastructure.",
-      "website": "http://www.cdnjs.com",
-      "name": "Cdnjs",
-      "position": "Co-Founder",
-      "startDate": "2011-01-08"
+      "level": "Senior",
+      "name": "Application Development"
     },
     {
-      "highlights": [
-        "Developed new tools for contacting congress",
-        "Brainstormed campaign ideas to raise maximum awareness about issues",
-        "Lots of social networking integration"
+      "keywords": [
+        "LLMs",
+        "Neural-networks",
+        "Tensorflow",
+        "Vector Databases",
+        "Prompt Engineer"
       ],
-      "summary": "Hired to take EFF's campaigning to the next level by building an action centre in Ruby on Rails. The action centre is built around some large open source tools that lower the barrier to entry when contacting congress.",
-      "website": "http://www.eff.org",
-      "name": "Electronic Frontier Foundation",
-      "position": "Developer",
-      "startDate": "2014-04-01",
-      "endDate": "2016-01-01"
-    },
-    {
-      "highlights": [
-        "Managed a small team of developers and designers",
-        "Built the entire frontend application with Backbone.js",
-        "Transferred all of the infrastructure from Heroku to AWS"
-      ],
-      "summary": "Started off as a front end developer but took on the role of CTO in early 2013. The application frontend is built with Javascript and organized as a single page application that talks to a collection of Rails web servers which are connected to MongoDB.",
-      "website": "http://www.earbits.com",
-      "name": "Earbits",
-      "position": "CTO",
-      "endDate": "2015-01-09",
-      "startDate": "2013-03-08"
-    },
-    {
-      "highlights": ["This resume is built with JSON Resume", "Over 3000 stars on Github", "Community developed themes", "Tens of thousands of users"],
-      "summary": "JSON Resume is a community driven open source initiative to create a JSON based standard for resumes. There is no reason why there can't be a common standard for writing a resume that can be extended with an ecosystem of open source tools.",
-      "website": "http://jsonresume.org",
-      "pinned": true,
-      "name": "JSON Resume",
-      "position": "Founder",
-      "startDate": "2014-04-01"
-    },
-    {
-      "highlights": [
-        "Generated  37,000,000 banner views",
-        "100, 000 phone calls to congress",
-        "500, 000 emails",
-        "250, 000 signatures"
-      ],
-      "summary": "Worked on many politically charged campaigns against mass surveillance. Not only technically challenging work but also a lot of networking and getting my hands dirty with politics.    Our biggest project was \"TheDayWeFightBack\"..",
-      "website": "http://www.taskforce.is",
-      "name": "Taskforce.is",
-      "position": "Developer",
-      "startDate": "2013-06-01",
-      "endDate": "2016-01-01"
-    },
-    {
-      "highlights": [
-        "The site and blog combined have managed to receive over 200,000 visitors in 2014."
-      ],
-      "summary": "An international directory of civilian drone / UAV operators for hire. Services include aerial photography, aerial video, mapping, surveying, precision agriculture, real estate photography, remote inspections and infrared imaging. Our plan is to be the place to go when looking for UAV/Drone services. The website is built in Backbone.js and API is built with Node.js and Postgres. ",
-      "website": "http://www.dronehire.org",
-      "name": "Drone Hire",
-      "position": "Co-Founder",
-      "startDate": "2013-01-01"
-    },
-    {
-      "highlights": [
-        "Over two million unique visitors a year",
-        "25,000+ ebook downloads",
-        "300,000+ Youtube views"
-      ],
-      "summary": "I write tutorials and blog post regarding the popular Javascript framework Backbone.js. The tutorials cover a range of topics regarding front end development aimed at beginners, experts and anyone in between.",
-      "website": "http://backbonetutorials.com",
-      "name": "BackboneTutorials.com",
-      "position": "Founder",
-      "startDate": "2011-01-01",
-      "endDate": "2014-01-01"
-    },
-    {
-      "summary": "Ephox is a worldwide company who is heavily involved with the development of TinyMce and enterprise editors. My primary role included building front-end widgets and applications. Worked on a major product using Backbone.js as a base. Heavily involved in UI/UX design and wire-framing. Also spend a lot of time designing API specifications and documentation.",
-      "website": "http://ephox.com",
-      "name": "Ephox",
-      "position": "Front-end Developer",
-      "endDate": "2012-06-01",
-      "startDate": "2011-01-01"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Gardening"
-    },
-    {
-      "name": "Music / Jamming"
-    },
-    {
-      "name": "Reading / Writing"
-    },
-    {
-      "name": "Open Source"
+      "level": "Evolving",
+      "name": "AI Engineer"
     }
   ]
 }
