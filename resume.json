@@ -70,6 +70,13 @@
       "startDate": "2019-05-31",
       "summary": "Cross-platform Electron desktop application",
       "url": "https://github.com/lacymorrow/crossover"
+      "website": "https://github.com/lacymorrow/crossover",
+      "highlights": [
+        "Open-Source",
+        "Built with Electron",
+        "Over 800 stars on Github"
+      ],
+      "description": "Cross-platform Electron desktop application"
     },
     {
       "name": "Cinematic",
