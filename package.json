@@ -1,22 +1,23 @@
 {
-  "name": "thomasdavis",
+  "name": "resume",
   "version": "1.0.0",
-  "description": "This is the resume of Thomas Davis. God of web development.",
-  "main": "index.js",
+  "description": "Resume of Lacy Morrow — Typst + JSON Resume",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "make all"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thomasdavis/resume.git"
+    "url": "git+https://github.com/lacymorrow/resume.git"
   },
   "keywords": [
-    "resume"
+    "resume",
+    "typst",
+    "jsonresume"
   ],
-  "author": "Thomas Davis",
+  "author": "Lacy Morrow",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thomasdavis/resume/issues"
+    "url": "https://github.com/lacymorrow/resume/issues"
   },
-  "homepage": "https://github.com/thomasdavis/resume#readme"
+  "homepage": "https://github.com/lacymorrow/resume#readme"
 }

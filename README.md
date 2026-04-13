@@ -1,24 +1,57 @@
+# Resume — Lacy Morrow
 
-The easy way to host your resume is by making a `resume.json` on gist.github.com. 
+Source files for my resume in two formats:
 
-For example mine can be found at https://gist.github.com/thomasdavis/c9dcfa1b37dec07fb2ee7f36d7278105 which then automatically gets hosted at https://registry.jsonresume.org/thomasdavis 
+- **`resume.typ`** — [Typst](https://typst.app/) source (primary, CLI-editable)
+- **`resume.json`** — [JSON Resume](https://jsonresume.org/) schema (auto-synced to [gist](https://gist.github.com/lacymorrow/20d5679018e388cfb1a6fa3d76c02ce3) on push)
 
-You can just edit your Gist using the online GUI and it should update within less than a minute. 
+## Quick Start
 
-## But
+```bash
+# Install Typst (macOS)
+brew install typst
 
-If you would like to have your `resume.json` in a repository aka like this. 
+# Build complete (5-page) resume
+make complete
 
-You can set up a Github Action that automatically updates your gist `resume.json` to match what is in your repo everytime you push. 
+# Build concise (2-page) resume
+make concise
 
-If you checkout the `.github/workflows/gist.yml` file you should be able to figure it out with relative ease. Or feel free to ping me an issue. 
+# Build both
+make all
 
-The basic steps are 
+# Live preview while editing
+make watch
+```
 
-1) Create a gist called `resume.json` 
-2) Create or fork this repo and commit your updated `resume.json` 
-3) Create a Personal Github token that has just the `gist` scope 
-4) Go to your repository settings, then to the secrets page, and add a new secret called `TOKEN` with the value being from the token you created in 3) 
-5) Now simply push to your repo, and your `resume.json` from the repo, will publish and override your gist `resume.json` and thus updating the registry to match
+## Versions
 
-Enjoy!
+The Typst source supports two versions controlled by a single boolean at the top of `resume.typ`:
+
+| Version | Pages | Toggle | Contents |
+|---------|-------|--------|----------|
+| **Complete** | 5 | `#let complete = true` | Full history + open source + agency + hardware |
+| **Concise** | 2 | `#let complete = false` | Recent developer experience only |
+
+## Outputs
+
+| File | Description |
+|------|-------------|
+| `resume-complete.pdf` | Full 5-page resume |
+| `resume-concise.pdf` | Trimmed 2-page resume |
+
+## JSON Resume
+
+The `resume.json` follows the [JSON Resume v1.0.0 schema](https://jsonresume.org/schema). On push, a GitHub Action syncs it to the gist, which is hosted at:
+
+https://registry.jsonresume.org/lacymorrow
+
+## Editing
+
+Edit `resume.typ` directly -- it's plain text with a markup syntax similar to Markdown. Run `make watch` for live PDF preview. After editing, keep `resume.json` in sync with any content changes.
+
+## Links
+
+- Portfolio: [lacymorrow.com](https://lacymorrow.com)
+- JSON Resume Registry: [registry.jsonresume.org/lacymorrow](https://registry.jsonresume.org/lacymorrow)
+- Gist: [gist.github.com/lacymorrow/20d5679...](https://gist.github.com/lacymorrow/20d5679018e388cfb1a6fa3d76c02ce3)
