@@ -7,13 +7,13 @@
   },
   "basics": {
     "name": "Lacy Morrow",
-    "label": "Web engineer + open-source developer + IoT enthusiast",
+    "label": "Agentic & web engineer + open-source developer + hardware hacker",
     "image": "https://avatars.githubusercontent.com/u/1311301?v=4",
     "avatar": "https://avatars.githubusercontent.com/u/1311301?v=4",
     "email": "me@lacymorrow.com",
     "phone": "(704) 451-6680",
     "url": "http://lacymorrow.com",
-    "summary": "Over 20 years as a Web Developer building accessible, well-architected sites and apps. Creator of pixel-perfect, mobile-first development with graceful degradation and progressive enhancement.\n\nEXPERTISE: Full-stack developer + Hardware Engineer; Tech/Development lead; Product/Project manager; DevOps; IT consultant; Software architect; Hiring manager; SCRUM master\n\nI especially enjoy TypeScript, React, NextJS, and Electron/Tauri\n\nQUALITIES: Tech leader. Passionate about quality. Communicative and accessible; Reliable, confident, and eager to build. A highly motivated problem-solver.",
+    "summary": "Over 20 years as a Web Developer building accessible, well-architected sites and apps. Creator of pixel-perfect, mobile-first development with graceful degradation and progressive enhancement.\n\nEXPERTISE: Agentic engineer + Full-stack developer + Hardware Engineer; Agency owner; Tech/Development lead; Product/Project manager; DevOps; IT consultant; Software architect; Hiring manager; SCRUM master\n\nI especially enjoy TypeScript, React, NextJS, and Electron/Tauri\n\nQUALITIES: Tech leader. Passionate about quality. Communicative and accessible; Reliable, confident, and eager to build. A highly motivated problem-solver.",
     "location": {
       "countryCode": "US",
       "city": "Charlotte",
@@ -78,10 +78,33 @@
   ],
   "projects": [
     {
+      "name": "Lacy Shell",
+      "startDate": "2024-01-01",
+      "summary": "AI Coding Agent for Your Terminal. Integrate Codex, Claude Code, or your favorite AI coding CLI into your existing shell.",
+      "url": "https://github.com/lacymorrow/lacy-shell"
+    },
+    {
       "name": "Juno AI",
       "startDate": "2025-01-01",
       "summary": "Voice-Operate Your Computer. Rust + Tauri Desktop app built on OpenAI Whisper and Anthropic Computer-use.",
       "url": "https://github.com/lacymorrow/juno-ai"
+    },
+    {
+      "name": "Vibe Rehab",
+      "startDate": "2025-01-01",
+      "summary": "Fix Your Vibe Code. Finish your vibe coded projects and get them launched, deployed, and secured.",
+      "url": "https://github.com/lacymorrow/vibe-rehab"
+    },
+    {
+      "name": "Hitchhiker's Guide to the Galaxy",
+      "startDate": "2025-01-01",
+      "summary": "Completely dynamic website that generates entries as they are requested. Mimicking the guide from the famous Douglas Adams novel.",
+      "url": "https://github.com/lacymorrow/hitchhikers-guide"
+    },
+    {
+      "name": "OpenClaw Alpaca",
+      "startDate": "2024-01-01",
+      "summary": "OpenClaw Skills for Trading Stocks, Predictions, and Crypto. Created an automating stock trading agent that runs a brokerage account and posts updates and trades to Twitter. Alpaca, Polymarket, Kalshi"
     },
     {
       "name": "Shipkit",
@@ -172,6 +195,14 @@
   ],
   "work": [
     {
+      "name": "Duke Energy",
+      "position": "Agentic Engineer + Senior Developer",
+      "startDate": "2025-06-01",
+      "endDate": "2026-04-01",
+      "summary": "Created internal GPT setup for company use. Contract - Refactored a weather-forecasting dashboard to deploy to AWS and migrated authentication to Azure A/D (Active Directory) from user/password. Python, React, Docker, AWS, Azure, Regex, Cron",
+      "location": "Remote"
+    },
+    {
       "name": "Credit Karma",
       "position": "Full-Stack Next.js Developer",
       "startDate": "2025-01-01",
@@ -189,7 +220,7 @@
     },
     {
       "name": "OptumRX Health / Red Ventures",
-      "position": "Senior React Developer",
+      "position": "Senior React Developer + DevOps Engineer",
       "startDate": "2024-01-01",
       "endDate": "2024-12-31",
       "summary": "Contract - Created E-commerce site for RVO Health. Built the market, inventory, authentication, and ordering systems, complete with automation pipelines. TypeScript, NextJS, React, Contentful, Plytix, Stripe, Algolia",
@@ -299,7 +330,7 @@
       "name": "Appalachian State University",
       "position": "Full-Stack Web Developer",
       "startDate": "2010-09-30",
-      "endDate": "2011-09-30",
+      "endDate": "2014-05-31",
       "highlights": [],
       "summary": "Full-Stack Web Developer - Built internal websites and scheduling software. Helped develop back office software. Created custom CMS framework with PHP, Postgres used by all campus web pages; DevOps - Managed database and handled deployments;\n\nPHP, Python, Postgres, MySQL, PHPWebsite, PHPUnit, Git, Apache, Linux",
       "url": "https://www.appstate.edu/",
