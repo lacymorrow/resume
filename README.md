@@ -1,6 +1,19 @@
 # Resume — Lacy Morrow
 
-> [gist...](https://gist.github.com/lacymorrow/20d5679018e388cfb1a6fa3d76c02ce3)
+> **This repo is the single source of truth for all resume data.** Edit here; do not maintain separate copies downstream.
+
+## Ecosystem
+
+| Layer | URL | Role |
+|-------|-----|------|
+| **Source** | [github.com/lacymorrow/resume](https://github.com/lacymorrow/resume) | This repo — authoritative data source |
+| **Viewer** | [resume.lacy.sh](https://resume.lacy.sh) | Consumes `resume.json`; adds multi-flavor rendering support |
+| **Entry point** | [lacymorrow.com](https://lacymorrow.com) | Redirects to resume.lacy.sh for resume viewing |
+| **Gist mirror** | [gist.github.com/lacymorrow/20d5679...](https://gist.github.com/lacymorrow/20d5679018e388cfb1a6fa3d76c02ce3) | Auto-synced from this repo on push; mirrors `resume.json` verbatim |
+
+The `resume-app` (deployed as resume.lacy.sh) reads `resume.json` from the gist and builds multi-flavor views on top of it. `lacymorrow.com` redirects to resume.lacy.sh for the resume viewer. Neither downstream maintains its own resume data — this repo is the edit point.
+
+---
 
 Source files for my resume in two formats:
 
@@ -55,5 +68,6 @@ Edit `resume.typ` directly -- it's plain text with a markup syntax similar to Ma
 ## Links
 
 - Portfolio: [lacymorrow.com](https://lacymorrow.com)
+- Resume viewer: [resume.lacy.sh](https://resume.lacy.sh)
 - JSON Resume Registry: [registry.jsonresume.org/lacymorrow](https://registry.jsonresume.org/lacymorrow)
 - Gist: [gist.github.com/lacymorrow/20d5679...](https://gist.github.com/lacymorrow/20d5679018e388cfb1a6fa3d76c02ce3)
