@@ -1,5 +1,7 @@
 # Resume — Lacy Morrow
 
+> [gist...](https://gist.github.com/lacymorrow/20d5679018e388cfb1a6fa3d76c02ce3)
+
 Source files for my resume in two formats:
 
 - **`resume.typ`** — [Typst](https://typst.app/) source (primary, CLI-editable)
