@@ -172,6 +172,18 @@
 
 #entry(
   dates: "2025 - 2026",
+  company: [American City \ Business Journals],
+  title: "Backend Developer + Agentic Engineer",
+  bullets: (
+    [Contract - Built and migrated a *backend Laravel platform* powering business publications across *48 U.S. markets*.],
+    [Architected an *AI orchestration layer* managing 12 autonomous agents that independently picked up and completed engineering tasks.],
+    "Developed Claude agent personas and reusable skill sets across multiple services and platforms for the development team.",
+  ),
+  tech: "Laravel, PHP, AI/LLM Orchestration, Claude, Autonomous Agents",
+)
+
+#entry(
+  dates: "2025 - 2026",
   company: "Duke Energy",
   title: "Agentic Engineer + Senior Developer",
   bullets: (
